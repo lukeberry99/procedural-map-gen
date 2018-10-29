@@ -4,7 +4,7 @@
   "description": "Procedural map generation in React for roguelikes, etc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
   "keywords": [
     "roguelike",
@@ -16,5 +16,25 @@
     "simulation"
   ],
   "author": "Luke Berry <contact@luke-berry.co.uk> (luke-berry.co.uk)",
-  "license": "MIT"
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "react-hot-loader": "^4.3.11",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
 }
