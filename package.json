@@ -1,0 +1,20 @@
+{
+  "name": "procedural-map-gen",
+  "version": "1.0.0",
+  "description": "Procedural map generation in React for roguelikes, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "roguelike",
+    "rogue",
+    "roguedev",
+    "react",
+    "generation",
+    "procedural",
+    "simulation"
+  ],
+  "author": "Luke Berry <contact@luke-berry.co.uk> (luke-berry.co.uk)",
+  "license": "MIT"
+}
